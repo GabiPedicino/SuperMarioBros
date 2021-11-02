@@ -118,7 +118,7 @@ scene('game', ({level, score}) => {
 
   
   add([
-    text('level' + parseInt(level+1)), pos (40+6)
+    text('level' + parseInt(level+1)), pos (40, 6)
   ])
 
   const player = add([
